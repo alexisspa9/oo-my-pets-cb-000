@@ -8,7 +8,7 @@ class Owner
     @@all << self
     @@count += 1
     @species = "human"
-    @pets = {}
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   def self.reset_all
     @@all.clear
