@@ -20,7 +20,7 @@ class Owner
     @@count
   end
   def species(name)
-    @species = []
+    @species << name
 
   end
 end
