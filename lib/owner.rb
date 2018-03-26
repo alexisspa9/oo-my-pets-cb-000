@@ -7,12 +7,12 @@ class Owner
     @@all << self
     @@owners_count += 1
   end
-  def self.reset
-    @@owners.clear
+  def self.reset_all
+    @@all.clear
     @@owners_count = 0
   end
   def self.all
     @@all
-    
+
   end
 end
