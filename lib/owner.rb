@@ -22,4 +22,8 @@ class Owner
   def species(name)
     @species << name
   end
+  def say_species
+    @species
+    
+  end
 end
