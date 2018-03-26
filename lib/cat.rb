@@ -5,3 +5,4 @@ attr_accessor :mood
   @name = name
   @mood = "nervous"
 end
+end
