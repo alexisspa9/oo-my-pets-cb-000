@@ -52,10 +52,9 @@ class Owner
     end
   end
   def sell_pets
-      
+
   end
   def list_pets
-    
-    
+    dogs = @pets[:dogs].count
   end
 end
