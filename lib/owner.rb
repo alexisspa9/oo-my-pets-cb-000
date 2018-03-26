@@ -19,7 +19,7 @@ class Owner
   def self.count
     @@count
   end
-  def species(species = "human")
+  def species(species = "I am a human.")
     @species = name
   end
   def say_species
