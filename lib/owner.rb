@@ -5,7 +5,7 @@ class Owner
   @@count = 0
   def initialize(name)
     @@all << self
-    @@owners_count += 1
+    @@count += 1
   end
   def self.reset_all
     @@all.clear
