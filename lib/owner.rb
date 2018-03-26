@@ -52,7 +52,11 @@ class Owner
     end
   end
   def sell_pets
-
+  @pets.each do |hash|
+    @pets[hash].each do |pet|
+      pet.mood = "nervous"
+    end
+  end
   end
   def list_pets
     dogs = @pets[:dogs].count
