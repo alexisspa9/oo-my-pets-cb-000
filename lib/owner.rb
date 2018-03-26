@@ -21,10 +21,10 @@ class Owner
   def self.count
     @@count
   end
-  # def species
-  #   @species = "I am a human."
-  # end
   def say_species
     "I am a #{@species}."
+  end
+  def buy_fish
+    
   end
 end
