@@ -36,4 +36,10 @@ class Owner
     f = Dog.new(name)
     @pets[:dogs] << f
   end
+  def walk_dogs
+    @pets[:dogs].each do |d|
+
+    end
+    
+  end
 end
