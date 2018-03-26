@@ -21,6 +21,5 @@ class Owner
   end
   def species(name)
     @species << name
-
   end
 end
