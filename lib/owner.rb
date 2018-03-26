@@ -20,7 +20,7 @@ class Owner
     @@count
   end
   def species(name)
-    @species << name
+    @species = name
   end
   def say_species
     @species
