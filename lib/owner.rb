@@ -11,4 +11,8 @@ class Owner
     @@owners.clear
     @@owners_count = 0
   end
+  def self.all
+    @@all
+    
+  end
 end
