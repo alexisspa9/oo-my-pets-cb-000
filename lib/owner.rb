@@ -1,10 +1,10 @@
 class Owner
   # code goes here
   attr_accessor :name
-  @@owners = []
+  @@all = []
   @@owners_count = 0
   def initialize(name)
-    @@owners << self
+    @@all << self
     @@owners_count += 1
   end
   def self.reset
