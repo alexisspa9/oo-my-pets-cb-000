@@ -9,7 +9,7 @@ class Owner
   end
   def self.reset_all
     @@all.clear
-    @@ount = 0
+    @@count = 0
   end
   def self.all
     @@all
