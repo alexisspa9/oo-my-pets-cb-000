@@ -2,7 +2,7 @@ class Owner
   # code goes here
   attr_accessor :name
   @@all = []
-  @@owners_count = 0
+  @@count = 0
   def initialize(name)
     @@all << self
     @@owners_count += 1
