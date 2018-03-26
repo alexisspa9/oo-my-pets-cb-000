@@ -7,7 +7,7 @@ class Owner
   def initialize(name)
     @@all << self
     @@count += 1
-      @species = "I am a human."
+    @species = "I am a human."
   end
   def self.reset_all
     @@all.clear
@@ -20,9 +20,9 @@ class Owner
   def self.count
     @@count
   end
-  def species
-    @species = "I am a human."
-  end
+  # def species
+  #   @species = "I am a human."
+  # end
   def say_species
     @species
   end
