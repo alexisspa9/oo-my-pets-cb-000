@@ -24,6 +24,6 @@ class Owner
   #   @species = "I am a human."
   # end
   def say_species
-    @species
+    "I am a #{@species}."
   end
 end
